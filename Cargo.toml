@@ -1,0 +1,12 @@
+[package]
+name = "fiz"
+version = "0.0.1"
+authors = ["Stephen Gutekanst <stephen.gutekanst@gmail.com>"]
+description = "Fiz: Game Engine & Graphics Toolkit"
+homepage = "https://github.com/fiz3d/"
+repository = "https://github.com/fiz3d/fiz"
+keywords = ["fiz", "game", "engine", "graphics", "3D"]
+license = "BSD-3-Clause"
+
+[dependencies]
+fiz-math = "*"
