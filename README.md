@@ -1,11 +1,10 @@
 # [![Fiz3D](http://fiz3d.org/static/media/logo_nopad_101x48.png)](https://fiz3d.org) [![Build Status](https://travis-ci.org/fiz3d/fiz.svg?branch=master)](https://travis-ci.org/fiz3d/fiz) 
 
-
 [Fiz](https://fiz3d.org) is a modern game engine & graphics toolkit, check out [fiz3d.org](https://fiz3d.org) for more information.
 
   - [Getting started](https://fiz3d.org/docs)
-  - [Request help & file issues](https://github.com/fiz3d/fiz/issues/new)
   - [Join the discussion!](https://fiz3d.org/slack)
+  - [Create a new issue](https://github.com/fiz3d/fiz/issues/new)
 
 # Root Crate
 
