@@ -5,7 +5,7 @@
 
   - [Getting started](https://fiz3d.org/docs)
   - [Request help & file issues](https://github.com/fiz3d/fiz/issues/new)
-  - [![Join the chat at https://gitter.im/fiz3d/fiz](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fiz3d/fiz?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+  - [Join the discussion!](https://fiz3d.org/slack)
 
 # Root Crate
 
