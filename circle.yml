@@ -1,0 +1,18 @@
+dependencies:
+  override:
+    - bash <(curl -sf https://raw.githubusercontent.com/brson/multirust/master/blastoff.sh) --yes
+    - multirust update stable
+    - multirust update nightly
+    - multirust update beta
+
+  cache_directories:
+    - "~/.multirust"
+
+test:
+  override:
+    - multirust default stable && cargo test
+
+    # Disabling colored output (which CircleCI doesn't display properly) requires nightly cargo.
+    - multirust default nightly && cargo test --color=never -- --color never
+
+    - multirust default beta && cargo test
