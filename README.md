@@ -1,4 +1,4 @@
-# [![Fiz3D](http://fiz3d.org/static/media/readme_small.png)](https://fiz3d.org) [![Build Status](https://travis-ci.org/fiz3d/fiz.svg?branch=master)](https://travis-ci.org/fiz3d/fiz) 
+# [![Fiz3D](http://fiz3d.org/static/media/readme_small.png)](https://fiz3d.org) [![Build Status](https://circleci.com/gh/fiz3d/fiz.svg?&style=shield)](https://circleci.com/gh/fiz3d/fiz)
 
 [Fiz](https://fiz3d.org) is a modern game engine & graphics toolkit.
 
