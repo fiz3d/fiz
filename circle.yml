@@ -1,3 +1,13 @@
+# Notes:
+#
+# eval `ssh-agent` code is needed due to:
+# - https://github.com/rust-lang/cargo/issues/2078
+# - https://discuss.circleci.com/t/cargo-build-fails-on-fresh-install/1102/3
+#
+# "cargo test --color=never -- --color never" is needed to disable the
+# colored output Cargo would usually output. CircleCI doesn't display
+# this at all (displays the escape characters literally).
+
 dependencies:
   override:
     - bash <(curl -sf https://raw.githubusercontent.com/brson/multirust/master/blastoff.sh) --yes
@@ -10,9 +20,6 @@ dependencies:
 
 test:
   override:
-    - multirust default stable && cargo test
-
-    # Disabling colored output (which CircleCI doesn't display properly) requires nightly cargo.
-    - multirust default nightly && cargo test --color=never -- --color never
-
-    - multirust default beta && cargo test
+    - eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default stable && cargo test --color=never -- --color never
+    - eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default nightly && cargo test --color=never -- --color never
+    - eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default beta && cargo test --color=never -- --color never
