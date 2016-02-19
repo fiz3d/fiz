@@ -9,4 +9,4 @@ keywords = ["fiz", "game", "engine", "graphics", "3D"]
 license = "BSD-3-Clause"
 
 [dependencies]
-fiz-math = "0.0.12"
+fiz-math = "0.0.13"
