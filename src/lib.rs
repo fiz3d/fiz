@@ -1,4 +1,6 @@
-pub extern crate fiz_math as math;
+extern crate fiz_math;
+
+pub use fiz_math as math;
 
 mod test{
   #[allow(unused_imports)]
