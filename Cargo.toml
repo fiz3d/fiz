@@ -1,6 +1,6 @@
 [package]
 name = "fiz"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["Stephen Gutekanst <stephen.gutekanst@gmail.com>"]
 description = "Fiz: Game Engine & Graphics Toolkit"
 homepage = "https://fiz3d.org/"
