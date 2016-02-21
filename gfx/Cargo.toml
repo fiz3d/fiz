@@ -4,6 +4,6 @@ version = "0.0.1"
 authors = ["Stephen Gutekanst <stephen.gutekanst@gmail.com>"]
 description = "Graphics Engine for 2D and 3D games and visualizations."
 homepage = "https://fiz3d.org/crate/gfx"
-repository = "https://github.com/fiz3d/gfx"
+repository = "https://github.com/fiz3d/fiz"
 keywords = ["fiz", "gfx", "2D", "3D", "graphics"]
 license = "BSD-3-Clause"
