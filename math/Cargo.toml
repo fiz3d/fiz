@@ -1,10 +1,10 @@
 [package]
 name = "fiz-math"
-version = "0.0.13"
+version = "0.0.14"
 authors = ["Stephen Gutekanst <stephen.gutekanst@gmail.com>"]
 description = "Game & graphics math in two and three dimensions."
 homepage = "https://fiz3d.org/crate/math"
-repository = "https://github.com/fiz3d/math"
+repository = "https://github.com/fiz3d/fiz"
 keywords = ["fiz", "math", "linear", "algebra", "3D"]
 license = "BSD-3-Clause"
 
