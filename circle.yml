@@ -20,6 +20,6 @@ dependencies:
 
 test:
   override:
-    - eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default stable && cargo test --color=never -- --color never
-    - eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default nightly && cargo test --color=never -- --color never
-    - eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default beta && cargo test --color=never -- --color never
+    - cd fiz && eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default stable && cargo test --color=never -- --color never
+    - cd fiz && eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default nightly && cargo test --color=never -- --color never
+    - cd fiz && eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && multirust default beta && cargo test --color=never -- --color never
